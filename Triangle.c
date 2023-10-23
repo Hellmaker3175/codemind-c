@@ -7,11 +7,11 @@ int main()
     {
         printf("Equilateral triangle");
     }
-    else if (a==b || b==c || a==c)
+    else if (a==b && b!=c)
     {
         printf("Isosceles triangle");
     }
-    else
+    else if (a!=b!=c)
     {
         printf("Scalene triangle");
     }
